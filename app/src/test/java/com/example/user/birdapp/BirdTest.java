@@ -16,7 +16,7 @@ public class BirdTest {
 
     @Test
     public void canGetRanking(){
-        assertEquals( 1, bird.getRanking());
+        assertEquals( (Integer)1, bird.getRanking());
     }
 
     @Test

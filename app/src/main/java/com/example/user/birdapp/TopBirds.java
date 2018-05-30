@@ -9,10 +9,10 @@ public class TopBirds {
     public TopBirds(){
         list = new ArrayList<Bird>();
         list.add(new Bird(1,"Kingfisher", "Kingfishers"));
-        list.add(new Bird(1,"White Tailed Eagle", "Eagles"));
-        list.add(new Bird(1,"Barn Owl", "Owls"));
-        list.add(new Bird(1,"Goldfinch", "Finches"));
-        list.add(new Bird(1,"Kestrel", "Falcon"));
+        list.add(new Bird(2,"White Tailed Eagle", "Eagles"));
+        list.add(new Bird(3,"Barn Owl", "Owls"));
+        list.add(new Bird(4,"Goldfinch", "Finches"));
+        list.add(new Bird(5,"Kestrel", "Falcon"));
     }
 
     public ArrayList<Bird> getList(){

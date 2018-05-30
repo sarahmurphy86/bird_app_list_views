@@ -1,8 +1,10 @@
 package com.example.user.birdapp;
 
-public class Bird {
+import java.io.Serializable;
 
-    private int ranking;
+public class Bird implements Serializable {
+
+    private Integer ranking;
     private String species;
     private String family;
 
@@ -12,7 +14,7 @@ public class Bird {
         this.family = family;
     }
 
-    public int getRanking(){
+    public Integer getRanking(){
         return this.ranking;
     }
 
